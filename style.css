@@ -1,0 +1,53 @@
+.body{
+    background: aliceblue;
+    color: black;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./Media/media.png");
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+.logo{
+    width: 48px;
+}
+.menu{
+    display: flex;
+}
+.menu > li{
+    list-style: none;
+    padding: 10px;
+}
+.menu > li:hover{
+    font-weight: 600;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+}
+.header-text{
+    margin-top: 10%;
+    font-size: 50px;   
+}
+.header-text h1{
+    font-size: 60px; 
+}
+.header-text h1 span{
+    color: black;
+}
+.header-text h1 span1{
+    font-size: 20px;
+    margin-top: 10px;
+}
